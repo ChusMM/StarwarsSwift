@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B8059E67DCD092EEA56A12F /* Pods_StartWarsRemake_StartWarsRemakeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FA433C56BE0D7FBBCF112F /* Pods_StartWarsRemake_StartWarsRemakeUITests.framework */; };
+		3E47A42F25F698A4001B9B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A42E25F698A4001B9B54 /* AppDelegate.swift */; };
+		3E47A43125F698A4001B9B54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A43025F698A4001B9B54 /* SceneDelegate.swift */; };
+		3E47A43325F698A4001B9B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A43225F698A4001B9B54 /* ViewController.swift */; };
+		3E47A43625F698A4001B9B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E47A43425F698A4001B9B54 /* Main.storyboard */; };
+		3E47A43825F698A5001B9B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E47A43725F698A5001B9B54 /* Assets.xcassets */; };
+		3E47A43B25F698A5001B9B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E47A43925F698A5001B9B54 /* LaunchScreen.storyboard */; };
+		3E47A44625F698A5001B9B54 /* StartWarsRemakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A44525F698A5001B9B54 /* StartWarsRemakeTests.swift */; };
+		3E47A45125F698A5001B9B54 /* StartWarsRemakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A45025F698A5001B9B54 /* StartWarsRemakeUITests.swift */; };
+		74B4B11C92A07D4B1467424B /* Pods_StartWarsRemakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AF11138FEB29B1337093E7 /* Pods_StartWarsRemakeTests.framework */; };
+		EFAF656265D56230A61544F6 /* Pods_StartWarsRemake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C61552097671B14C63FA0DB /* Pods_StartWarsRemake.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E47A44225F698A5001B9B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E47A42325F698A4001B9B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E47A42A25F698A4001B9B54;
+			remoteInfo = StartWarsRemake;
+		};
+		3E47A44D25F698A5001B9B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E47A42325F698A4001B9B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E47A42A25F698A4001B9B54;
+			remoteInfo = StartWarsRemake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EB135BABC0655C38BED953 /* Pods-StartWarsRemake-StartWarsRemakeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsRemake-StartWarsRemakeUITests.release.xcconfig"; path = "Target Support Files/Pods-StartWarsRemake-StartWarsRemakeUITests/Pods-StartWarsRemake-StartWarsRemakeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0C61552097671B14C63FA0DB /* Pods_StartWarsRemake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartWarsRemake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18642E495D2F75AD72E90EB3 /* Pods-StartWarsRemake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsRemake.release.xcconfig"; path = "Target Support Files/Pods-StartWarsRemake/Pods-StartWarsRemake.release.xcconfig"; sourceTree = "<group>"; };
+		36AF11138FEB29B1337093E7 /* Pods_StartWarsRemakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartWarsRemakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E47A42B25F698A4001B9B54 /* StartWarsRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartWarsRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E47A42E25F698A4001B9B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E47A43025F698A4001B9B54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3E47A43225F698A4001B9B54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E47A43525F698A4001B9B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E47A43725F698A5001B9B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E47A43A25F698A5001B9B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E47A43C25F698A5001B9B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E47A44125F698A5001B9B54 /* StartWarsRemakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartWarsRemakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E47A44525F698A5001B9B54 /* StartWarsRemakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWarsRemakeTests.swift; sourceTree = "<group>"; };
+		3E47A44725F698A5001B9B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E47A44C25F698A5001B9B54 /* StartWarsRemakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartWarsRemakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E47A45025F698A5001B9B54 /* StartWarsRemakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWarsRemakeUITests.swift; sourceTree = "<group>"; };
+		3E47A45225F698A5001B9B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0778476DD62EBDC815C5A0 /* Pods-StartWarsRemakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsRemakeTests.release.xcconfig"; path = "Target Support Files/Pods-StartWarsRemakeTests/Pods-StartWarsRemakeTests.release.xcconfig"; sourceTree = "<group>"; };
+		60D2AE12F17DC6E6CCD6A244 /* Pods-StartWarsRemake-StartWarsRemakeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsRemake-StartWarsRemakeUITests.debug.xcconfig"; path = "Target Support Files/Pods-StartWarsRemake-StartWarsRemakeUITests/Pods-StartWarsRemake-StartWarsRemakeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62FD5354A59A80D4B3F3155E /* Pods-StartWarsRemakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsRemakeTests.debug.xcconfig"; path = "Target Support Files/Pods-StartWarsRemakeTests/Pods-StartWarsRemakeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5FA433C56BE0D7FBBCF112F /* Pods_StartWarsRemake_StartWarsRemakeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartWarsRemake_StartWarsRemakeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B682A043043DB6F73625644D /* Pods-StartWarsRemake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsRemake.debug.xcconfig"; path = "Target Support Files/Pods-StartWarsRemake/Pods-StartWarsRemake.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E47A42825F698A4001B9B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAF656265D56230A61544F6 /* Pods_StartWarsRemake.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E47A43E25F698A5001B9B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B4B11C92A07D4B1467424B /* Pods_StartWarsRemakeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E47A44925F698A5001B9B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8059E67DCD092EEA56A12F /* Pods_StartWarsRemake_StartWarsRemakeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E47A42225F698A4001B9B54 = {
+			isa = PBXGroup;
+			children = (
+				3E47A42D25F698A4001B9B54 /* StartWarsRemake */,
+				3E47A44425F698A5001B9B54 /* StartWarsRemakeTests */,
+				3E47A44F25F698A5001B9B54 /* StartWarsRemakeUITests */,
+				3E47A42C25F698A4001B9B54 /* Products */,
+				E59EAAB3617A24792FCBCEF8 /* Pods */,
+				DED927CEB611E21F39AAA1E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E47A42C25F698A4001B9B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E47A42B25F698A4001B9B54 /* StartWarsRemake.app */,
+				3E47A44125F698A5001B9B54 /* StartWarsRemakeTests.xctest */,
+				3E47A44C25F698A5001B9B54 /* StartWarsRemakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E47A42D25F698A4001B9B54 /* StartWarsRemake */ = {
+			isa = PBXGroup;
+			children = (
+				3E583F9025FCDF0400D432C8 /* Storyboards */,
+				3E47A42E25F698A4001B9B54 /* AppDelegate.swift */,
+				3E47A43025F698A4001B9B54 /* SceneDelegate.swift */,
+				3E47A43225F698A4001B9B54 /* ViewController.swift */,
+				3E47A43725F698A5001B9B54 /* Assets.xcassets */,
+				3E47A43C25F698A5001B9B54 /* Info.plist */,
+			);
+			path = StartWarsRemake;
+			sourceTree = "<group>";
+		};
+		3E47A44425F698A5001B9B54 /* StartWarsRemakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E47A44525F698A5001B9B54 /* StartWarsRemakeTests.swift */,
+				3E47A44725F698A5001B9B54 /* Info.plist */,
+			);
+			path = StartWarsRemakeTests;
+			sourceTree = "<group>";
+		};
+		3E47A44F25F698A5001B9B54 /* StartWarsRemakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E47A45025F698A5001B9B54 /* StartWarsRemakeUITests.swift */,
+				3E47A45225F698A5001B9B54 /* Info.plist */,
+			);
+			path = StartWarsRemakeUITests;
+			sourceTree = "<group>";
+		};
+		3E583F9025FCDF0400D432C8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3E47A43925F698A5001B9B54 /* LaunchScreen.storyboard */,
+				3E47A43425F698A4001B9B54 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DED927CEB611E21F39AAA1E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C61552097671B14C63FA0DB /* Pods_StartWarsRemake.framework */,
+				B5FA433C56BE0D7FBBCF112F /* Pods_StartWarsRemake_StartWarsRemakeUITests.framework */,
+				36AF11138FEB29B1337093E7 /* Pods_StartWarsRemakeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E59EAAB3617A24792FCBCEF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B682A043043DB6F73625644D /* Pods-StartWarsRemake.debug.xcconfig */,
+				18642E495D2F75AD72E90EB3 /* Pods-StartWarsRemake.release.xcconfig */,
+				60D2AE12F17DC6E6CCD6A244 /* Pods-StartWarsRemake-StartWarsRemakeUITests.debug.xcconfig */,
+				08EB135BABC0655C38BED953 /* Pods-StartWarsRemake-StartWarsRemakeUITests.release.xcconfig */,
+				62FD5354A59A80D4B3F3155E /* Pods-StartWarsRemakeTests.debug.xcconfig */,
+				4A0778476DD62EBDC815C5A0 /* Pods-StartWarsRemakeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E47A42A25F698A4001B9B54 /* StartWarsRemake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E47A45525F698A5001B9B54 /* Build configuration list for PBXNativeTarget "StartWarsRemake" */;
+			buildPhases = (
+				A5D78FD80A64DF99C6941080 /* [CP] Check Pods Manifest.lock */,
+				3E47A42725F698A4001B9B54 /* Sources */,
+				3E47A42825F698A4001B9B54 /* Frameworks */,
+				3E47A42925F698A4001B9B54 /* Resources */,
+				DAD822D182ABA7736D5BD602 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StartWarsRemake;
+			productName = StartWarsRemake;
+			productReference = 3E47A42B25F698A4001B9B54 /* StartWarsRemake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E47A44025F698A5001B9B54 /* StartWarsRemakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E47A45825F698A5001B9B54 /* Build configuration list for PBXNativeTarget "StartWarsRemakeTests" */;
+			buildPhases = (
+				DCF6A6BDE3B4473A25924030 /* [CP] Check Pods Manifest.lock */,
+				3E47A43D25F698A5001B9B54 /* Sources */,
+				3E47A43E25F698A5001B9B54 /* Frameworks */,
+				3E47A43F25F698A5001B9B54 /* Resources */,
+				6BE3F5B1CCB2015D042E7735 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E47A44325F698A5001B9B54 /* PBXTargetDependency */,
+			);
+			name = StartWarsRemakeTests;
+			productName = StartWarsRemakeTests;
+			productReference = 3E47A44125F698A5001B9B54 /* StartWarsRemakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E47A44B25F698A5001B9B54 /* StartWarsRemakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E47A45B25F698A5001B9B54 /* Build configuration list for PBXNativeTarget "StartWarsRemakeUITests" */;
+			buildPhases = (
+				E677D6B8A2A7E839C4B6A9DF /* [CP] Check Pods Manifest.lock */,
+				3E47A44825F698A5001B9B54 /* Sources */,
+				3E47A44925F698A5001B9B54 /* Frameworks */,
+				3E47A44A25F698A5001B9B54 /* Resources */,
+				A50B7EE4BEC59518F19E5492 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E47A44E25F698A5001B9B54 /* PBXTargetDependency */,
+			);
+			name = StartWarsRemakeUITests;
+			productName = StartWarsRemakeUITests;
+			productReference = 3E47A44C25F698A5001B9B54 /* StartWarsRemakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E47A42325F698A4001B9B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3E47A42A25F698A4001B9B54 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3E47A44025F698A5001B9B54 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3E47A42A25F698A4001B9B54;
+					};
+					3E47A44B25F698A5001B9B54 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3E47A42A25F698A4001B9B54;
+					};
+				};
+			};
+			buildConfigurationList = 3E47A42625F698A4001B9B54 /* Build configuration list for PBXProject "StartWarsRemake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E47A42225F698A4001B9B54;
+			productRefGroup = 3E47A42C25F698A4001B9B54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E47A42A25F698A4001B9B54 /* StartWarsRemake */,
+				3E47A44025F698A5001B9B54 /* StartWarsRemakeTests */,
+				3E47A44B25F698A5001B9B54 /* StartWarsRemakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E47A42925F698A4001B9B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E47A43B25F698A5001B9B54 /* LaunchScreen.storyboard in Resources */,
+				3E47A43825F698A5001B9B54 /* Assets.xcassets in Resources */,
+				3E47A43625F698A4001B9B54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E47A43F25F698A5001B9B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E47A44A25F698A5001B9B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BE3F5B1CCB2015D042E7735 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StartWarsRemakeTests/Pods-StartWarsRemakeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StartWarsRemakeTests/Pods-StartWarsRemakeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StartWarsRemakeTests/Pods-StartWarsRemakeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50B7EE4BEC59518F19E5492 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StartWarsRemake-StartWarsRemakeUITests/Pods-StartWarsRemake-StartWarsRemakeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StartWarsRemake-StartWarsRemakeUITests/Pods-StartWarsRemake-StartWarsRemakeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StartWarsRemake-StartWarsRemakeUITests/Pods-StartWarsRemake-StartWarsRemakeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D78FD80A64DF99C6941080 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StartWarsRemake-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAD822D182ABA7736D5BD602 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StartWarsRemake/Pods-StartWarsRemake-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StartWarsRemake/Pods-StartWarsRemake-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StartWarsRemake/Pods-StartWarsRemake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF6A6BDE3B4473A25924030 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StartWarsRemakeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E677D6B8A2A7E839C4B6A9DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StartWarsRemake-StartWarsRemakeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E47A42725F698A4001B9B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E47A43325F698A4001B9B54 /* ViewController.swift in Sources */,
+				3E47A42F25F698A4001B9B54 /* AppDelegate.swift in Sources */,
+				3E47A43125F698A4001B9B54 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E47A43D25F698A5001B9B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E47A44625F698A5001B9B54 /* StartWarsRemakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E47A44825F698A5001B9B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E47A45125F698A5001B9B54 /* StartWarsRemakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E47A44325F698A5001B9B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E47A42A25F698A4001B9B54 /* StartWarsRemake */;
+			targetProxy = 3E47A44225F698A5001B9B54 /* PBXContainerItemProxy */;
+		};
+		3E47A44E25F698A5001B9B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E47A42A25F698A4001B9B54 /* StartWarsRemake */;
+			targetProxy = 3E47A44D25F698A5001B9B54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E47A43425F698A4001B9B54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E47A43525F698A4001B9B54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E47A43925F698A5001B9B54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E47A43A25F698A5001B9B54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E47A45325F698A5001B9B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E47A45425F698A5001B9B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E47A45625F698A5001B9B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B682A043043DB6F73625644D /* Pods-StartWarsRemake.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StartWarsRemake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chusterfu.StartWarsRemake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E47A45725F698A5001B9B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18642E495D2F75AD72E90EB3 /* Pods-StartWarsRemake.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StartWarsRemake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chusterfu.StartWarsRemake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E47A45925F698A5001B9B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62FD5354A59A80D4B3F3155E /* Pods-StartWarsRemakeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StartWarsRemakeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chusterfu.StartWarsRemakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StartWarsRemake.app/StartWarsRemake";
+			};
+			name = Debug;
+		};
+		3E47A45A25F698A5001B9B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0778476DD62EBDC815C5A0 /* Pods-StartWarsRemakeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StartWarsRemakeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chusterfu.StartWarsRemakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StartWarsRemake.app/StartWarsRemake";
+			};
+			name = Release;
+		};
+		3E47A45C25F698A5001B9B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D2AE12F17DC6E6CCD6A244 /* Pods-StartWarsRemake-StartWarsRemakeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StartWarsRemakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chusterfu.StartWarsRemakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StartWarsRemake;
+			};
+			name = Debug;
+		};
+		3E47A45D25F698A5001B9B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EB135BABC0655C38BED953 /* Pods-StartWarsRemake-StartWarsRemakeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StartWarsRemakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chusterfu.StartWarsRemakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StartWarsRemake;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E47A42625F698A4001B9B54 /* Build configuration list for PBXProject "StartWarsRemake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E47A45325F698A5001B9B54 /* Debug */,
+				3E47A45425F698A5001B9B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E47A45525F698A5001B9B54 /* Build configuration list for PBXNativeTarget "StartWarsRemake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E47A45625F698A5001B9B54 /* Debug */,
+				3E47A45725F698A5001B9B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E47A45825F698A5001B9B54 /* Build configuration list for PBXNativeTarget "StartWarsRemakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E47A45925F698A5001B9B54 /* Debug */,
+				3E47A45A25F698A5001B9B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E47A45B25F698A5001B9B54 /* Build configuration list for PBXNativeTarget "StartWarsRemakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E47A45C25F698A5001B9B54 /* Debug */,
+				3E47A45D25F698A5001B9B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E47A42325F698A4001B9B54 /* Project object */;
+}
