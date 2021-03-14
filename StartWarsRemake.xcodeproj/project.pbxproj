@@ -16,6 +16,33 @@
 		3E47A43B25F698A5001B9B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E47A43925F698A5001B9B54 /* LaunchScreen.storyboard */; };
 		3E47A44625F698A5001B9B54 /* StartWarsRemakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A44525F698A5001B9B54 /* StartWarsRemakeTests.swift */; };
 		3E47A45125F698A5001B9B54 /* StartWarsRemakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A45025F698A5001B9B54 /* StartWarsRemakeUITests.swift */; };
+		3E583FAC25FCEB5A00D432C8 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FAB25FCEB5A00D432C8 /* Film.swift */; };
+		3E583FAD25FCEB5A00D432C8 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FAB25FCEB5A00D432C8 /* Film.swift */; };
+		3E583FAE25FCEB5A00D432C8 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FAB25FCEB5A00D432C8 /* Film.swift */; };
+		3E583FBD25FCEBC100D432C8 /* Startship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FBC25FCEBC100D432C8 /* Startship.swift */; };
+		3E583FBE25FCEBC100D432C8 /* Startship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FBC25FCEBC100D432C8 /* Startship.swift */; };
+		3E583FBF25FCEBC100D432C8 /* Startship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FBC25FCEBC100D432C8 /* Startship.swift */; };
+		3E583FCF25FCFC8100D432C8 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FCE25FCFC8100D432C8 /* SearchTableViewController.swift */; };
+		3E583FD025FCFC8100D432C8 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FCE25FCFC8100D432C8 /* SearchTableViewController.swift */; };
+		3E583FD125FCFC8100D432C8 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FCE25FCFC8100D432C8 /* SearchTableViewController.swift */; };
+		3E583FD625FD208100D432C8 /* StarthipRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FD525FD208100D432C8 /* StarthipRepository.swift */; };
+		3E583FD725FD208100D432C8 /* StarthipRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FD525FD208100D432C8 /* StarthipRepository.swift */; };
+		3E583FD825FD208100D432C8 /* StarthipRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FD525FD208100D432C8 /* StarthipRepository.swift */; };
+		3E583FDE25FD218900D432C8 /* StarshipPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */; };
+		3E583FDF25FD218900D432C8 /* StarshipPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */; };
+		3E583FE025FD218900D432C8 /* StarshipPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */; };
+		3E583FEC25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */; };
+		3E583FED25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */; };
+		3E583FEE25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */; };
+		3E58400825FE1D8600D432C8 /* Displayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58400725FE1D8600D432C8 /* Displayable.swift */; };
+		3E58400925FE1D8600D432C8 /* Displayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58400725FE1D8600D432C8 /* Displayable.swift */; };
+		3E58400A25FE1D8600D432C8 /* Displayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58400725FE1D8600D432C8 /* Displayable.swift */; };
+		3E58401025FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58400F25FE2D4800D432C8 /* ViewControllerExtension.swift */; };
+		3E58401125FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58400F25FE2D4800D432C8 /* ViewControllerExtension.swift */; };
+		3E58401225FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58400F25FE2D4800D432C8 /* ViewControllerExtension.swift */; };
+		3E58401A25FE319A00D432C8 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58401925FE319A00D432C8 /* SearchTableViewCell.swift */; };
+		3E58401B25FE319A00D432C8 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58401925FE319A00D432C8 /* SearchTableViewCell.swift */; };
+		3E58401C25FE319A00D432C8 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58401925FE319A00D432C8 /* SearchTableViewCell.swift */; };
 		74B4B11C92A07D4B1467424B /* Pods_StartWarsRemakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AF11138FEB29B1337093E7 /* Pods_StartWarsRemakeTests.framework */; };
 		EFAF656265D56230A61544F6 /* Pods_StartWarsRemake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C61552097671B14C63FA0DB /* Pods_StartWarsRemake.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +83,15 @@
 		3E47A44C25F698A5001B9B54 /* StartWarsRemakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartWarsRemakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E47A45025F698A5001B9B54 /* StartWarsRemakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWarsRemakeUITests.swift; sourceTree = "<group>"; };
 		3E47A45225F698A5001B9B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E583FAB25FCEB5A00D432C8 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		3E583FBC25FCEBC100D432C8 /* Startship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Startship.swift; sourceTree = "<group>"; };
+		3E583FCE25FCFC8100D432C8 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		3E583FD525FD208100D432C8 /* StarthipRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarthipRepository.swift; sourceTree = "<group>"; };
+		3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipPresenter.swift; sourceTree = "<group>"; };
+		3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartshipInteractor.swift; sourceTree = "<group>"; };
+		3E58400725FE1D8600D432C8 /* Displayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Displayable.swift; sourceTree = "<group>"; };
+		3E58400F25FE2D4800D432C8 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		3E58401925FE319A00D432C8 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		4A0778476DD62EBDC815C5A0 /* Pods-StartWarsRemakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsRemakeTests.release.xcconfig"; path = "Target Support Files/Pods-StartWarsRemakeTests/Pods-StartWarsRemakeTests.release.xcconfig"; sourceTree = "<group>"; };
 		60D2AE12F17DC6E6CCD6A244 /* Pods-StartWarsRemake-StartWarsRemakeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsRemake-StartWarsRemakeUITests.debug.xcconfig"; path = "Target Support Files/Pods-StartWarsRemake-StartWarsRemakeUITests/Pods-StartWarsRemake-StartWarsRemakeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		62FD5354A59A80D4B3F3155E /* Pods-StartWarsRemakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsRemakeTests.debug.xcconfig"; path = "Target Support Files/Pods-StartWarsRemakeTests/Pods-StartWarsRemakeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +152,9 @@
 		3E47A42D25F698A4001B9B54 /* StartWarsRemake */ = {
 			isa = PBXGroup;
 			children = (
+				3E583FDC25FD215500D432C8 /* Viper */,
+				3E583FCA25FCEDB000D432C8 /* ViewControllers */,
+				3E583FA925FCEA5600D432C8 /* Networking */,
 				3E583F9025FCDF0400D432C8 /* Storyboards */,
 				3E47A42E25F698A4001B9B54 /* AppDelegate.swift */,
 				3E47A43025F698A4001B9B54 /* SceneDelegate.swift */,
@@ -151,6 +190,60 @@
 				3E47A43425F698A4001B9B54 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3E583FA925FCEA5600D432C8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3E583FAA25FCEB3000D432C8 /* Models */,
+				3E583FD525FD208100D432C8 /* StarthipRepository.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3E583FAA25FCEB3000D432C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E583FAB25FCEB5A00D432C8 /* Film.swift */,
+				3E583FBC25FCEBC100D432C8 /* Startship.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E583FCA25FCEDB000D432C8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E58400E25FE2D3400D432C8 /* Extensions */,
+				3E583FCE25FCFC8100D432C8 /* SearchTableViewController.swift */,
+				3E58401925FE319A00D432C8 /* SearchTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3E583FDC25FD215500D432C8 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				3E583FEA25FD297600D432C8 /* Films */,
+				3E58400725FE1D8600D432C8 /* Displayable.swift */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		3E583FEA25FD297600D432C8 /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */,
+				3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */,
+			);
+			path = Films;
+			sourceTree = "<group>";
+		};
+		3E58400E25FE2D3400D432C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E58400F25FE2D4800D432C8 /* ViewControllerExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		DED927CEB611E21F39AAA1E2 /* Frameworks */ = {
@@ -433,8 +526,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E47A43325F698A4001B9B54 /* ViewController.swift in Sources */,
+				3E583FEC25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */,
+				3E583FAC25FCEB5A00D432C8 /* Film.swift in Sources */,
 				3E47A42F25F698A4001B9B54 /* AppDelegate.swift in Sources */,
+				3E583FBD25FCEBC100D432C8 /* Startship.swift in Sources */,
+				3E583FDE25FD218900D432C8 /* StarshipPresenter.swift in Sources */,
+				3E583FD625FD208100D432C8 /* StarthipRepository.swift in Sources */,
+				3E58401025FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */,
 				3E47A43125F698A4001B9B54 /* SceneDelegate.swift in Sources */,
+				3E58401A25FE319A00D432C8 /* SearchTableViewCell.swift in Sources */,
+				3E58400825FE1D8600D432C8 /* Displayable.swift in Sources */,
+				3E583FCF25FCFC8100D432C8 /* SearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +544,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E583FBE25FCEBC100D432C8 /* Startship.swift in Sources */,
+				3E583FD025FCFC8100D432C8 /* SearchTableViewController.swift in Sources */,
+				3E58401125FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */,
+				3E583FDF25FD218900D432C8 /* StarshipPresenter.swift in Sources */,
+				3E583FD725FD208100D432C8 /* StarthipRepository.swift in Sources */,
+				3E583FED25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */,
 				3E47A44625F698A5001B9B54 /* StartWarsRemakeTests.swift in Sources */,
+				3E58400925FE1D8600D432C8 /* Displayable.swift in Sources */,
+				3E583FAD25FCEB5A00D432C8 /* Film.swift in Sources */,
+				3E58401B25FE319A00D432C8 /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +561,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E583FBF25FCEBC100D432C8 /* Startship.swift in Sources */,
+				3E583FD125FCFC8100D432C8 /* SearchTableViewController.swift in Sources */,
+				3E58401225FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */,
+				3E583FE025FD218900D432C8 /* StarshipPresenter.swift in Sources */,
+				3E583FD825FD208100D432C8 /* StarthipRepository.swift in Sources */,
+				3E583FEE25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */,
 				3E47A45125F698A5001B9B54 /* StartWarsRemakeUITests.swift in Sources */,
+				3E58400A25FE1D8600D432C8 /* Displayable.swift in Sources */,
+				3E583FAE25FCEB5A00D432C8 /* Film.swift in Sources */,
+				3E58401C25FE319A00D432C8 /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
