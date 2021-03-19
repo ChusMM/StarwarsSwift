@@ -24,40 +24,71 @@
             </objects>
             <point key="canvasLocation" x="-1099" y="307"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="hP1-Rt-O8z">
             <objects>
-                <viewController id="qaa-qh-F4V" sceneMemberID="viewController">
+                <viewController id="qaa-qh-F4V" customClass="HomeViewController" customModule="StartWarsRemake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hIf-Kp-4g5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HelmetIcon" translatesAutoresizingMaskIntoConstraints="NO" id="80X-2G-xid">
-                                <rect key="frame" x="4" y="92" width="414" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="gdI-rW-fOg"/>
-                                </constraints>
-                            </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DxY-17-NrD">
-                                <rect key="frame" x="4" y="174" width="406" height="684"/>
+                                <rect key="frame" x="4" y="198" width="406" height="660"/>
                                 <connections>
-                                    <segue destination="8oM-q0-U2M" kind="embed" id="lGc-UM-K7q"/>
+                                    <segue destination="8oM-q0-U2M" kind="embed" identifier="TableViewSegue" id="lGc-UM-K7q"/>
                                 </connections>
                             </containerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FA2-S1-6aX">
+                                <rect key="frame" x="0.0" y="88" width="268" height="110"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="POa-Ru-BXj">
+                                        <rect key="frame" x="61.5" y="40" width="145" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="2zX-Xg-ceB"/>
+                                            <constraint firstAttribute="width" constant="145" id="Hwd-CW-mWj"/>
+                                        </constraints>
+                                        <segments>
+                                            <segment title="Starships"/>
+                                            <segment title="Films"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="onSegmentedChanged:" destination="qaa-qh-F4V" eventType="valueChanged" id="uBX-JZ-yMN"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="6FT-qI-Nvd"/>
+                                    <constraint firstItem="POa-Ru-BXj" firstAttribute="centerX" secondItem="FA2-S1-6aX" secondAttribute="centerX" id="Zbz-It-By8"/>
+                                    <constraint firstItem="POa-Ru-BXj" firstAttribute="centerY" secondItem="FA2-S1-6aX" secondAttribute="centerY" id="cb7-Nh-wLI"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HelmetIcon" translatesAutoresizingMaskIntoConstraints="NO" id="2D1-4W-60M">
+                                <rect key="frame" x="276" y="108" width="136" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="Qd9-gY-1Nl"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="omO-TS-YfV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="omO-TS-YfV" firstAttribute="bottom" secondItem="DxY-17-NrD" secondAttribute="bottom" constant="4" id="2QG-dR-M62"/>
+                            <constraint firstItem="FA2-S1-6aX" firstAttribute="top" secondItem="omO-TS-YfV" secondAttribute="top" id="5AU-wm-biB"/>
+                            <constraint firstItem="omO-TS-YfV" firstAttribute="trailing" secondItem="2D1-4W-60M" secondAttribute="trailing" constant="2" id="C9L-AJ-HGe"/>
+                            <constraint firstItem="DxY-17-NrD" firstAttribute="top" secondItem="2D1-4W-60M" secondAttribute="bottom" constant="20" id="EIS-A5-ZP2"/>
                             <constraint firstItem="omO-TS-YfV" firstAttribute="trailing" secondItem="DxY-17-NrD" secondAttribute="trailing" constant="4" id="GMv-uX-Z6g"/>
-                            <constraint firstItem="80X-2G-xid" firstAttribute="leading" secondItem="omO-TS-YfV" secondAttribute="leading" constant="4" id="NmV-UC-KIW"/>
-                            <constraint firstItem="80X-2G-xid" firstAttribute="trailing" secondItem="omO-TS-YfV" secondAttribute="trailing" constant="4" id="ba8-Xs-470"/>
+                            <constraint firstItem="DxY-17-NrD" firstAttribute="top" secondItem="FA2-S1-6aX" secondAttribute="bottom" id="K31-Go-7bS"/>
+                            <constraint firstItem="2D1-4W-60M" firstAttribute="top" secondItem="omO-TS-YfV" secondAttribute="top" constant="20" id="SUG-nO-ZXD"/>
                             <constraint firstItem="DxY-17-NrD" firstAttribute="leading" secondItem="omO-TS-YfV" secondAttribute="leading" constant="4" id="dXl-sm-JJn"/>
-                            <constraint firstItem="80X-2G-xid" firstAttribute="top" secondItem="omO-TS-YfV" secondAttribute="top" constant="4" id="h7q-dj-03s"/>
-                            <constraint firstItem="DxY-17-NrD" firstAttribute="top" secondItem="80X-2G-xid" secondAttribute="bottom" constant="2" id="jhX-J9-7Nn"/>
+                            <constraint firstItem="2D1-4W-60M" firstAttribute="leading" secondItem="FA2-S1-6aX" secondAttribute="trailing" constant="8" id="oJy-Wx-Ucv"/>
+                            <constraint firstItem="FA2-S1-6aX" firstAttribute="leading" secondItem="omO-TS-YfV" secondAttribute="leading" id="w4q-of-izo"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VTv-OW-UYW"/>
+                    <connections>
+                        <outlet property="selector" destination="POa-Ru-BXj" id="kRB-0e-THT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RDU-D1-8D2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,7 +99,7 @@
             <objects>
                 <tableViewController id="8oM-q0-U2M" customClass="SearchTableViewController" customModule="StartWarsRemake" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2dz-nr-evn">
-                        <rect key="frame" x="0.0" y="0.0" width="406" height="684"/>
+                        <rect key="frame" x="0.0" y="0.0" width="406" height="660"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" id="dkm-8X-O0J">

@@ -40,21 +40,16 @@ struct StarshipModel: Decodable {
 }
 
 typealias StarshipCompletionSuccess = ([StarshipModel]) -> Void
-typealias StarshipCompletionError = (String) -> Void
 
 protocol StarshipInteractorProtocol {
-    func fetchStarships(filter: String, onSucess: @escaping StarshipCompletionSuccess, onError: @escaping StarshipCompletionError)
+    func fetchStarships(filter: String, onSucess: @escaping StarshipCompletionSuccess, onError: @escaping CompletionError)
 }
 
 class StarshipInteractor: StarshipInteractorProtocol {
-    var filmsRepository: StartshipRepository
+    private let starshipRepository = StartshipDataSource()
     
-    init() {
-        self.filmsRepository = StartshipDataSource()
-    }
-    
-    func fetchStarships(filter: String, onSucess: @escaping StarshipCompletionSuccess, onError: @escaping StarshipCompletionError) {
-        self.filmsRepository.fetchStarships(for: filter) { model, error in
+    func fetchStarships(filter: String, onSucess: @escaping StarshipCompletionSuccess, onError: @escaping CompletionError) {
+        self.starshipRepository.fetchStarships(for: filter) { model, error in
             if let errorMessage = error {
                 onError(errorMessage)
             }

@@ -14,6 +14,18 @@
 		3E1BEFF52604C3CE009677CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BEFF42604C3CE009677CD /* DetailViewController.swift */; };
 		3E1BEFF62604C3CE009677CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BEFF42604C3CE009677CD /* DetailViewController.swift */; };
 		3E1BEFF72604C3CE009677CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BEFF42604C3CE009677CD /* DetailViewController.swift */; };
+		3E1BEFFF2604E115009677CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BEFFE2604E115009677CD /* HomeViewController.swift */; };
+		3E1BF0002604E115009677CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BEFFE2604E115009677CD /* HomeViewController.swift */; };
+		3E1BF0012604E115009677CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BEFFE2604E115009677CD /* HomeViewController.swift */; };
+		3E1BF0062604E8B7009677CD /* FilmInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BF0052604E8B7009677CD /* FilmInteractor.swift */; };
+		3E1BF0072604E8B7009677CD /* FilmInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BF0052604E8B7009677CD /* FilmInteractor.swift */; };
+		3E1BF0082604E8B7009677CD /* FilmInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BF0052604E8B7009677CD /* FilmInteractor.swift */; };
+		3E1BF00D26050BB9009677CD /* FilmsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BF00C26050BB9009677CD /* FilmsRepository.swift */; };
+		3E1BF00E26050BB9009677CD /* FilmsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BF00C26050BB9009677CD /* FilmsRepository.swift */; };
+		3E1BF00F26050BB9009677CD /* FilmsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BF00C26050BB9009677CD /* FilmsRepository.swift */; };
+		3E1F024B26051A36003CEEA9 /* SearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F024A26051A36003CEEA9 /* SearchBarExtension.swift */; };
+		3E1F024C26051A36003CEEA9 /* SearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F024A26051A36003CEEA9 /* SearchBarExtension.swift */; };
+		3E1F024D26051A36003CEEA9 /* SearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F024A26051A36003CEEA9 /* SearchBarExtension.swift */; };
 		3E47A42F25F698A4001B9B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A42E25F698A4001B9B54 /* AppDelegate.swift */; };
 		3E47A43125F698A4001B9B54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A43025F698A4001B9B54 /* SceneDelegate.swift */; };
 		3E47A43325F698A4001B9B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A43225F698A4001B9B54 /* ViewController.swift */; };
@@ -34,9 +46,9 @@
 		3E583FD625FD208100D432C8 /* StarthipRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FD525FD208100D432C8 /* StarthipRepository.swift */; };
 		3E583FD725FD208100D432C8 /* StarthipRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FD525FD208100D432C8 /* StarthipRepository.swift */; };
 		3E583FD825FD208100D432C8 /* StarthipRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FD525FD208100D432C8 /* StarthipRepository.swift */; };
-		3E583FDE25FD218900D432C8 /* StarshipPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */; };
-		3E583FDF25FD218900D432C8 /* StarshipPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */; };
-		3E583FE025FD218900D432C8 /* StarshipPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */; };
+		3E583FDE25FD218900D432C8 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FDD25FD218900D432C8 /* SearchPresenter.swift */; };
+		3E583FDF25FD218900D432C8 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FDD25FD218900D432C8 /* SearchPresenter.swift */; };
+		3E583FE025FD218900D432C8 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FDD25FD218900D432C8 /* SearchPresenter.swift */; };
 		3E583FEC25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */; };
 		3E583FED25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */; };
 		3E583FEE25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */; };
@@ -77,6 +89,10 @@
 		36AF11138FEB29B1337093E7 /* Pods_StartWarsRemakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartWarsRemakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1BEFED2604B5D1009677CD /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		3E1BEFF42604C3CE009677CD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3E1BEFFE2604E115009677CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3E1BF0052604E8B7009677CD /* FilmInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmInteractor.swift; sourceTree = "<group>"; };
+		3E1BF00C26050BB9009677CD /* FilmsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsRepository.swift; sourceTree = "<group>"; };
+		3E1F024A26051A36003CEEA9 /* SearchBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarExtension.swift; sourceTree = "<group>"; };
 		3E47A42B25F698A4001B9B54 /* StartWarsRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartWarsRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E47A42E25F698A4001B9B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E47A43025F698A4001B9B54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,7 +111,7 @@
 		3E583FBC25FCEBC100D432C8 /* Startship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Startship.swift; sourceTree = "<group>"; };
 		3E583FCE25FCFC8100D432C8 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		3E583FD525FD208100D432C8 /* StarthipRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarthipRepository.swift; sourceTree = "<group>"; };
-		3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipPresenter.swift; sourceTree = "<group>"; };
+		3E583FDD25FD218900D432C8 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
 		3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartshipInteractor.swift; sourceTree = "<group>"; };
 		3E58400725FE1D8600D432C8 /* Displayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Displayable.swift; sourceTree = "<group>"; };
 		3E58400F25FE2D4800D432C8 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -206,6 +222,7 @@
 			children = (
 				3E583FAA25FCEB3000D432C8 /* Models */,
 				3E583FD525FD208100D432C8 /* StarthipRepository.swift */,
+				3E1BF00C26050BB9009677CD /* FilmsRepository.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -226,6 +243,7 @@
 				3E583FCE25FCFC8100D432C8 /* SearchTableViewController.swift */,
 				3E58401925FE319A00D432C8 /* SearchTableViewCell.swift */,
 				3E1BEFF42604C3CE009677CD /* DetailViewController.swift */,
+				3E1BEFFE2604E115009677CD /* HomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -242,8 +260,9 @@
 		3E583FEA25FD297600D432C8 /* Starships */ = {
 			isa = PBXGroup;
 			children = (
-				3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */,
+				3E583FDD25FD218900D432C8 /* SearchPresenter.swift */,
 				3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */,
+				3E1BF0052604E8B7009677CD /* FilmInteractor.swift */,
 			);
 			path = Starships;
 			sourceTree = "<group>";
@@ -252,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				3E58400F25FE2D4800D432C8 /* ViewControllerExtension.swift */,
+				3E1F024A26051A36003CEEA9 /* SearchBarExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -543,13 +563,17 @@
 				3E583FEC25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */,
 				3E583FAC25FCEB5A00D432C8 /* Film.swift in Sources */,
 				3E47A42F25F698A4001B9B54 /* AppDelegate.swift in Sources */,
+				3E1F024B26051A36003CEEA9 /* SearchBarExtension.swift in Sources */,
+				3E1BEFFF2604E115009677CD /* HomeViewController.swift in Sources */,
 				3E583FBD25FCEBC100D432C8 /* Startship.swift in Sources */,
-				3E583FDE25FD218900D432C8 /* StarshipPresenter.swift in Sources */,
+				3E583FDE25FD218900D432C8 /* SearchPresenter.swift in Sources */,
 				3E583FD625FD208100D432C8 /* StarthipRepository.swift in Sources */,
 				3E58401025FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */,
 				3E47A43125F698A4001B9B54 /* SceneDelegate.swift in Sources */,
+				3E1BF00D26050BB9009677CD /* FilmsRepository.swift in Sources */,
 				3E58401A25FE319A00D432C8 /* SearchTableViewCell.swift in Sources */,
 				3E58400825FE1D8600D432C8 /* Displayable.swift in Sources */,
+				3E1BF0062604E8B7009677CD /* FilmInteractor.swift in Sources */,
 				3E583FCF25FCFC8100D432C8 /* SearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,16 +583,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E1BEFF62604C3CE009677CD /* DetailViewController.swift in Sources */,
+				3E1BF00E26050BB9009677CD /* FilmsRepository.swift in Sources */,
 				3E583FBE25FCEBC100D432C8 /* Startship.swift in Sources */,
 				3E583FD025FCFC8100D432C8 /* SearchTableViewController.swift in Sources */,
 				3E58401125FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */,
-				3E583FDF25FD218900D432C8 /* StarshipPresenter.swift in Sources */,
+				3E583FDF25FD218900D432C8 /* SearchPresenter.swift in Sources */,
 				3E583FD725FD208100D432C8 /* StarthipRepository.swift in Sources */,
+				3E1BF0072604E8B7009677CD /* FilmInteractor.swift in Sources */,
 				3E583FED25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */,
 				3E47A44625F698A5001B9B54 /* StartWarsRemakeTests.swift in Sources */,
 				3E58400925FE1D8600D432C8 /* Displayable.swift in Sources */,
+				3E1F024C26051A36003CEEA9 /* SearchBarExtension.swift in Sources */,
 				3E583FAD25FCEB5A00D432C8 /* Film.swift in Sources */,
 				3E58401B25FE319A00D432C8 /* SearchTableViewCell.swift in Sources */,
+				3E1BF0002604E115009677CD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,16 +605,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E1BEFF72604C3CE009677CD /* DetailViewController.swift in Sources */,
+				3E1BF00F26050BB9009677CD /* FilmsRepository.swift in Sources */,
 				3E583FBF25FCEBC100D432C8 /* Startship.swift in Sources */,
 				3E583FD125FCFC8100D432C8 /* SearchTableViewController.swift in Sources */,
 				3E58401225FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */,
-				3E583FE025FD218900D432C8 /* StarshipPresenter.swift in Sources */,
+				3E583FE025FD218900D432C8 /* SearchPresenter.swift in Sources */,
 				3E583FD825FD208100D432C8 /* StarthipRepository.swift in Sources */,
+				3E1BF0082604E8B7009677CD /* FilmInteractor.swift in Sources */,
 				3E583FEE25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */,
 				3E47A45125F698A5001B9B54 /* StartWarsRemakeUITests.swift in Sources */,
 				3E58400A25FE1D8600D432C8 /* Displayable.swift in Sources */,
+				3E1F024D26051A36003CEEA9 /* SearchBarExtension.swift in Sources */,
 				3E583FAE25FCEB5A00D432C8 /* Film.swift in Sources */,
 				3E58401C25FE319A00D432C8 /* SearchTableViewCell.swift in Sources */,
+				3E1BF0012604E115009677CD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

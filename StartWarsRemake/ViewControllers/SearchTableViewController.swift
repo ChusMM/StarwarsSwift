@@ -8,9 +8,24 @@
 import UIKit
 
 class SearchTableViewController: UITableViewController, UISearchBarDelegate {
+    
+    private var _searchCriteria: SearchCriteria = .Films
+    var searchCriteria: SearchCriteria? {
+        get {
+            return _searchCriteria
+        }
+        set {
+            if let value = newValue {
+                _searchCriteria = value
+                presenter.search(by: _searchCriteria)
+                searchBar.setEnabled(enable: _searchCriteria == .Starships)
+            }
+        }
+    }
+    
     var items: [Displayable] = []
     var selectedItem: Displayable? = nil
-    lazy var presenter: StarshipPresenterProtocol = StarshipPresenter(view: self)
+    lazy var presenter: SearchPresenterProtocol = SearchPresenter(view: self)
     
     private let cellSelectedSegueId = "DetailSegue"
 
@@ -19,7 +34,6 @@ class SearchTableViewController: UITableViewController, UISearchBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBar.delegate = self
-        presenter.searchStarships()
     }
 
     // MARK: - Table view data source
@@ -42,7 +56,7 @@ class SearchTableViewController: UITableViewController, UISearchBarDelegate {
     // MARK: - Searchbar delegates
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let starshipName = searchBar.text else { return }
-        presenter.searchStarships(for: starshipName)
+        presenter.search(for: starshipName, by: _searchCriteria)
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
@@ -67,7 +81,7 @@ class SearchTableViewController: UITableViewController, UISearchBarDelegate {
 }
 
 // MARK: - View Protocol
-extension SearchTableViewController: StarshipViewProtocol {
+extension SearchTableViewController: SearchViewProtocol {
     func showLoading() {
         showSpinner(onView: self.view)
     }
