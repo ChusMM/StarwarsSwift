@@ -54,7 +54,7 @@ class StarshipInteractor: StarshipInteractorProtocol {
     }
     
     func fetchStarships(filter: String, onSucess: @escaping StarshipCompletionSuccess, onError: @escaping StarshipCompletionError) {
-        self.filmsRepository.fetchFilms(for: filter) { model, error in
+        self.filmsRepository.fetchStarships(for: filter) { model, error in
             if let errorMessage = error {
                 onError(errorMessage)
             }

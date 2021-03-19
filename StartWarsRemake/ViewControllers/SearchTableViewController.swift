@@ -11,6 +11,8 @@ class SearchTableViewController: UITableViewController, UISearchBarDelegate {
     var items: [Displayable] = []
     var selectedItem: Displayable? = nil
     lazy var presenter: StarshipPresenterProtocol = StarshipPresenter(view: self)
+    
+    private let cellSelectedSegueId = "DetailSegue"
 
     @IBOutlet weak var searchBar: UISearchBar!
     
@@ -49,27 +51,29 @@ class SearchTableViewController: UITableViewController, UISearchBarDelegate {
         tableView.reloadData()
     }
     
-
-    /*
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        switch segue.identifier {
+        case cellSelectedSegueId:
+            guard let destinationVC = segue.destination as? DetailViewController else {
+                return
+            }
+            destinationVC.itemToDisplay = selectedItem
+            return
+        default:
+            return
+        }
     }
-    */
-
 }
 
 // MARK: - View Protocol
 extension SearchTableViewController: StarshipViewProtocol {
     func showLoading() {
-        startLoading()
+        showSpinner(onView: self.view)
     }
     
     func hideLoading() {
-        stopLoading()
+        removeSpinner()
     }
     
     func onResult(items: [Displayable]) {

@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1B8059E67DCD092EEA56A12F /* Pods_StartWarsRemake_StartWarsRemakeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FA433C56BE0D7FBBCF112F /* Pods_StartWarsRemake_StartWarsRemakeUITests.framework */; };
+		3E1BEFEE2604B5D1009677CD /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1BEFED2604B5D1009677CD /* Detail.storyboard */; };
+		3E1BEFEF2604B5D1009677CD /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1BEFED2604B5D1009677CD /* Detail.storyboard */; };
+		3E1BEFF02604B5D1009677CD /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1BEFED2604B5D1009677CD /* Detail.storyboard */; };
+		3E1BEFF52604C3CE009677CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BEFF42604C3CE009677CD /* DetailViewController.swift */; };
+		3E1BEFF62604C3CE009677CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BEFF42604C3CE009677CD /* DetailViewController.swift */; };
+		3E1BEFF72604C3CE009677CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BEFF42604C3CE009677CD /* DetailViewController.swift */; };
 		3E47A42F25F698A4001B9B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A42E25F698A4001B9B54 /* AppDelegate.swift */; };
 		3E47A43125F698A4001B9B54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A43025F698A4001B9B54 /* SceneDelegate.swift */; };
 		3E47A43325F698A4001B9B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A43225F698A4001B9B54 /* ViewController.swift */; };
@@ -69,6 +75,8 @@
 		0C61552097671B14C63FA0DB /* Pods_StartWarsRemake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartWarsRemake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18642E495D2F75AD72E90EB3 /* Pods-StartWarsRemake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsRemake.release.xcconfig"; path = "Target Support Files/Pods-StartWarsRemake/Pods-StartWarsRemake.release.xcconfig"; sourceTree = "<group>"; };
 		36AF11138FEB29B1337093E7 /* Pods_StartWarsRemakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartWarsRemakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1BEFED2604B5D1009677CD /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		3E1BEFF42604C3CE009677CD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3E47A42B25F698A4001B9B54 /* StartWarsRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartWarsRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E47A42E25F698A4001B9B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E47A43025F698A4001B9B54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -188,6 +196,7 @@
 			children = (
 				3E47A43925F698A5001B9B54 /* LaunchScreen.storyboard */,
 				3E47A43425F698A4001B9B54 /* Main.storyboard */,
+				3E1BEFED2604B5D1009677CD /* Detail.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -216,6 +225,7 @@
 				3E58400E25FE2D3400D432C8 /* Extensions */,
 				3E583FCE25FCFC8100D432C8 /* SearchTableViewController.swift */,
 				3E58401925FE319A00D432C8 /* SearchTableViewCell.swift */,
+				3E1BEFF42604C3CE009677CD /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -223,19 +233,19 @@
 		3E583FDC25FD215500D432C8 /* Viper */ = {
 			isa = PBXGroup;
 			children = (
-				3E583FEA25FD297600D432C8 /* Films */,
+				3E583FEA25FD297600D432C8 /* Starships */,
 				3E58400725FE1D8600D432C8 /* Displayable.swift */,
 			);
 			path = Viper;
 			sourceTree = "<group>";
 		};
-		3E583FEA25FD297600D432C8 /* Films */ = {
+		3E583FEA25FD297600D432C8 /* Starships */ = {
 			isa = PBXGroup;
 			children = (
 				3E583FDD25FD218900D432C8 /* StarshipPresenter.swift */,
 				3E583FEB25FD2A3500D432C8 /* StartshipInteractor.swift */,
 			);
-			path = Films;
+			path = Starships;
 			sourceTree = "<group>";
 		};
 		3E58400E25FE2D3400D432C8 /* Extensions */ = {
@@ -381,6 +391,7 @@
 				3E47A43B25F698A5001B9B54 /* LaunchScreen.storyboard in Resources */,
 				3E47A43825F698A5001B9B54 /* Assets.xcassets in Resources */,
 				3E47A43625F698A4001B9B54 /* Main.storyboard in Resources */,
+				3E1BEFEE2604B5D1009677CD /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1BEFEF2604B5D1009677CD /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1BEFF02604B5D1009677CD /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1BEFF52604C3CE009677CD /* DetailViewController.swift in Sources */,
 				3E47A43325F698A4001B9B54 /* ViewController.swift in Sources */,
 				3E583FEC25FD2A3500D432C8 /* StartshipInteractor.swift in Sources */,
 				3E583FAC25FCEB5A00D432C8 /* Film.swift in Sources */,
@@ -544,6 +558,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1BEFF62604C3CE009677CD /* DetailViewController.swift in Sources */,
 				3E583FBE25FCEBC100D432C8 /* Startship.swift in Sources */,
 				3E583FD025FCFC8100D432C8 /* SearchTableViewController.swift in Sources */,
 				3E58401125FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */,
@@ -561,6 +576,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1BEFF72604C3CE009677CD /* DetailViewController.swift in Sources */,
 				3E583FBF25FCEBC100D432C8 /* Startship.swift in Sources */,
 				3E583FD125FCFC8100D432C8 /* SearchTableViewController.swift in Sources */,
 				3E58401225FE2D4800D432C8 /* ViewControllerExtension.swift in Sources */,

@@ -113,6 +113,7 @@
                                 <connections>
                                     <outlet property="subtitle" destination="T5E-nN-0X3" id="3gn-UN-H8H"/>
                                     <outlet property="title" destination="wKh-IH-ppe" id="eqn-3K-Jgs"/>
+                                    <segue destination="PmX-dZ-PLV" kind="show" identifier="DetailSegue" id="eOa-v7-KGK"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -128,6 +129,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EEz-qG-9ik" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="596" y="307"/>
+        </scene>
+        <!--Detail-->
+        <scene sceneID="88b-q4-M8r">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Detail" id="PmX-dZ-PLV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="3YI-0o-GK0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NxA-HM-gEY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1241" y="307"/>
         </scene>
     </scenes>
     <resources>

@@ -11,13 +11,13 @@ import Alamofire
 protocol StartshipRepository {
     typealias Completion = ([StarshipModel]?, String?) -> Void
     
-    func fetchFilms(for name: String, completion: @escaping Completion)
+    func fetchStarships(for name: String, completion: @escaping Completion)
     func map(starships: Starships) -> [StarshipModel]
 }
 
 class StartshipDataSource: StartshipRepository {
     
-    func fetchFilms(for name: String, completion: @escaping Completion) {
+    func fetchStarships(for name: String, completion: @escaping Completion) {
         let url = "https://swapi.dev/api/starships"
         
         let parameters: [String: String] = ["search": name]

@@ -71,6 +71,7 @@ class StarshipPresenter: StarshipPresenterProtocol {
     }
     
     func searchStarships(for filter: String = "") {
+        view.showLoading()
         interactor.fetchStarships(filter: filter, onSucess: completionSuccess, onError: completionError)
     }
     
